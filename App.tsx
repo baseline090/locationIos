@@ -20,7 +20,7 @@ import BackgroundFetch from 'react-native-background-fetch';
 
 const toRadians = (degrees: number) => (degrees * Math.PI) / 180;
 
-const getDistance = (
+const getDistance = ( 
   { latitude: lat1, longitude: lon1 },
   { latitude: lat2, longitude: lon2 },
 ) => {
